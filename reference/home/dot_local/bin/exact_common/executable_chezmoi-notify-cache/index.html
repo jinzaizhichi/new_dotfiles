@@ -3031,10 +3031,11 @@
 <li>Renderer: <code>shdoc</code></li>
 </ul>
 <h2 id="generated-reference">Generated Reference<a class="headerlink" href="#generated-reference" title="Permanent link">&para;</a></h2>
-<p>Sync the chezmoi update notification caches used by p10k and Starship.</p>
+<p>Sync the shared chezmoi update notification cache used by p10k and Starship.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
-<p>Recomputes <code>HEAD..origin/master</code> on demand or only when cached results are
-stale, then updates both shell-specific cache directories together.</p>
+<p>Fetches the tracked upstream ref, recomputes <code>HEAD..origin/master</code> on
+demand or only when cached results are stale, then updates the shared
+notification cache consumed by both prompts.</p>
 
 
 
